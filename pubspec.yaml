@@ -1,0 +1,29 @@
+name: news_app
+description: A Flutter app to display news.
+
+environment:
+  sdk: '^3.5.0'
+  
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.3
+  provider: ^6.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/fonts/noto_sans/  
+
+  fonts:
+    - family: NotoSans
+      fonts:
+        - asset: assets/fonts/noto_sans/NotoSans-Regular.ttf
+        - asset: assets/fonts/noto_sans/NotoSans-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/noto_sans/NotoSans-Italic.ttf
+          style: italic
